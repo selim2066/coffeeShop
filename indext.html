@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-</html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> tail-MSR-wind </title>
+    <title>tail-MSR-wind</title>
     <!-- font cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,7 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
-    
 
     <!-- font awesome -->
 
@@ -21,21 +19,19 @@
       crossorigin="anonymous"
     ></script>
 
- 
-
     <!-- tailwind cdn -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
-
 
   <body>
     <center class="bg-green-500 text-5xl">Coffee-Shop</center>
     <!-- main segment -->
     <main class="max-w-screen-xl mx-auto px-16 lg-px-28">
-      <header class="lg:flex pt-10 mb-20 ">
+      <header class="lg:flex pt-10 mb-20">
         <div>
           <h1 class="text-5xl md:text-7xl">
-           <span class="text-amber-400"> It's a good </span><br /> <span class="text-amber-600">coffee time at The</span> <br />
+            <span class="text-amber-400"> It's a good </span><br />
+            <span class="text-amber-600">coffee time at The</span> <br />
             <span class="text-red-950 font-bold">Coffee-Shop</span>
           </h1>
           <p class="text-gray-600 w-3/4 pt-6 pb-6">
@@ -46,19 +42,22 @@
           <button
             class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold"
           >
-            Explore <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i>
+            Explore More
+            <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i>
           </button>
         </div>
         <!-- img part -->
         <div class="relative">
           <!-- img -->
-          <div >
+          <div>
             <img src="images/banner.png" alt="" />
           </div>
 
           <!-- card -->
 
-          <div class="absolute flex bg-slate-50 items-center shadow-lg rounded-lg px-2 py-2 md:px-10 lg:py-4 lg:top-60  md:top-40 md:left-10 lg:left-18 ">
+          <div
+            class="absolute flex bg-slate-50 items-center shadow-lg rounded-lg px-2 py-2 md:px-10 lg:py-4 lg:top-60 md:top-40 md:left-10 lg:left-18"
+          >
             <!-- icon -->
             <div><i class="fa-solid fa-star text-amber-500"></i></div>
             <!-- txt -->
@@ -69,42 +68,227 @@
           </div>
         </div>
       </header>
- <section>
-    <!-- sec title -->
-     <div>
-        <h1 class="text-center text-3xl mb-3 font-semibold text-amber-500 ">Feature Products</h1>
-        <p class="text-center text-gray-500 mx-auto  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero molestias cumque omnis, architecto, vitae inventore impedit mollitia necessitatibus natus corporis dolor dolores! Veniam odit labore quia perspiciatis fugiat. Ipsum!</p>
-     </div>
+      <section>
+        <!-- sec feature products title -->
+        <div>
+          <h1 class="text-center text-4xl mb-3 font-semibold text-amber-500">
+            Feature Products
+          </h1>
+          <p class="text-center text-gray-500 mx-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            vero molestias cumque omnis, architecto, vitae inventore impedit
+            mollitia necessitatibus natus corporis dolor dolores! Veniam odit
+            labore quia perspiciatis fugiat. Ipsum!
+          </p>
+        </div>
 
-     <!-- grid cards -->
+        <!-- grid cards -->
 
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-5, lg:grid-cols-4 gap-4"
+        >
+          <!-- cards -->
+          <div
+            class="shadow-lg bg-gradient-to-b from-lime-100 to-lime-500 mt-5 mb-5 rounded-lg"
+          >
+            <img class="py-5 mx-auto" src="images/tea-1.png" alt="" />
+            <h1 class="font-bold text-2xl text-center text-pink-100">
+              Cold Coffee
+            </h1>
+            <p class="text-white text-center pb-5">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Deleniti, alias!
+            </p>
+          </div>
+          <div
+            class="shadow-lg bg-gradient-to-b from-fuchsia-100 to-pink-300 mt-5 mb-5 rounded-lg"
+          >
+            <img class="py-5 mx-auto" src="images/tea-2.png" alt="" />
+            <h1 class="font-bold text-2xl text-center text-orange-100">
+              Pink Coffee
+            </h1>
+            <p class="text-pink-100 text-center pb-5">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Deleniti, alias!
+            </p>
+          </div>
+          <div
+            class="shadow-lg bg-gradient-to-b from-amber-200 to-yellow-400 mt-5 mb-5 rounded-lg"
+          >
+            <img class="py-5 mx-auto" src="images/tea-3.png" alt="" />
+            <h1 class="font-bold text-2xl text-center text-orange-700">
+              Cold Coffee
+            </h1>
+            <p class="text-gray-100 text-center pb-5">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Deleniti, alias!
+            </p>
+          </div>
+          <div
+            class="shadow-lg bg-gradient-to-b from-amber-400 to-orange-900 mt-5 mb-5 rounded-lg"
+          >
+            <img class="py-5 mx-auto" src="images/tea-4.png" alt="" />
+            <h1 class="font-bold text-2xl text-center text-yellow-300">
+              Cold Coffee
+            </h1>
+            <p class="text-white text-center pb-5">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Deleniti, alias!
+            </p>
+          </div>
+        </div>
+      </section>
 
-     <div class=" grid grid-cols-1 md:grid-cols-2 gap-5, lg:grid-cols-4 gap-4">
-      <!-- cards -->
-      <div class="shadow-lg bg-slate-100 mt-5 mb-5 rounded-lg">
-        <img class="py-5 mx-auto" src="images/tea-1.png" alt="">
-        <h1 class="font-bold text-xl text-center text-orange-700">Cold Coffee</h1>
-        <p class="text-gray-500 text-center pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, alias!</p>
+      <!-- grid part segment -->
+      <section class="mb-24 mt-20">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <!-- img part -->
+          <div class="grid grid-cols-2 grid-rows-3 gap-4 w-5.3/6">
+            <div
+              class="bg-gradient-to-r from-rose-100 to-red-50 rounded-lg shadow-sm"
+            ></div>
+            <div
+              class="row-span-2 items-center bg-gradient-to-r from-violet-200 to-pink-200 rounded-lg shadow-sm"
+            >
+              <img class="mx-auto py-10" src="images/fresh-1.png" alt="" />
+            </div>
+            <div
+              class="row-span-2 bg-gradient-to-b from-zinc-200 to-zinc-300 rounded-lg shadow-sm"
+            >
+              <img class="mx-auto py-10" src="images/fresh-2.png" alt="" />
+            </div>
+            <div
+              class="bg-gradient-to-r from-zinc-100 to-zinc-400 rounded-lg shadow-lg"
+            ></div>
+          </div>
 
-       </div><div class="shadow-lg bg-pink-100 mt-5 mb-5 rounded-lg">
-        <img class="py-5 mx-auto" src="images/tea-2.png" alt="">
-        <h1 class="font-bold text-xl text-center text-orange-700">pink Coffee</h1>
-        <p class="text-gray-500 text-center pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, alias!</p>
+          <!-- txt part -->
 
-       </div><div class="shadow-lg bg-yellow-200 mt-5 mb-5 rounded-lg">
-        <img class="py-5 mx-auto" src="images/tea-3.png" alt="">
-        <h1 class="font-bold text-xl text-center text-orange-700">Cold Coffee</h1>
-        <p class="text-gray-500 text-center pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, alias!</p>
+          <div>
+            <h1 class="text-3xl font-semibold pb-5">
+              Great Coffee <br />
+              Freshly Presented
+            </h1>
+            <p class="text-gray-500">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto soluta sed enim eveniet deserunt, ut, minus totam dicta
+              quo quos aut iste quidem voluptas nesciunt officia, id nobis!
+              Perferendis excepturi et quas nostrum nisi assumenda magni ex,
+              unde fuga architecto ab iste laudantium aut! Iure, fugiat non
+              doloremque praesentium quidem eveniet reiciendis ipsum minima,
+              error optio perspiciatis molestiae officiis ab.
+            </p>
+            <h2 class="text-2xl font-semibold py-5">Unique Test</h2>
+            <p class="text-gray-500">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
+              voluptas eum est non qui blanditiis dolor neque necessitatibus
+              quas nihil.
+            </p>
+            <h2 class="text-2xl font-semibold py-5">Premium Quality</h2>
+            <p class="text-gray-500">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              laborum. Ratione natus consequatur fugit vitae, minus, quisquam
+              quia accusantium deserunt facere distinctio provident velit
+              consequuntur quis dolorum vel, esse totam reprehenderit hic?
+              Obcaecati fugiat quidem laborum optio molestias, voluptatibus
+              recusandae?
+            </p>
+          </div>
+          <div></div>
+        </div>
+      </section>
 
-       </div><div class="shadow-lg bg-red-900 mt-5 mb-5 rounded-lg">
-        <img class="py-5 mx-auto" src="images/tea-4.png" alt="">
-        <h1 class="font-bold text-xl text-center text-yellow-300">Cold Coffee</h1>
-        <p class="text-white text-center pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, alias!</p>
+      <!-- review section -->
 
-       </div>
-     </div>
- </section>
-      <div ></div>
+      <div
+        class="bg-gradient-to-r from-orange-500 to-red-600 rounded-xl grid grid-cols-1 lg:grid-cols-2 text-white mb-10"
+      >
+        <div class="flex items-center pl-20">
+          <div class="mx-10 mt-10 mb-10 w-5/6">
+            <h1 class="text-4xl pb-5 font-bold">
+              Meet Our Super <br />
+              Client
+            </h1>
+            <p class="pb-5">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta ab
+              reprehenderit cumque dolore dicta sint eos unde iusto sapiente
+              dignissimos!
+            </p>
+            <button class="bg-white px-4 py-2 rounded-xl text-orange-700">
+              Show All
+            </button>
+          </div>
+        </div>
+        <!-- text review customer -->
+        <div class="relative ">
+          <!-- top card -->
+          <div class="absolute z-10 top-50 md:w-3.5/4 left-20">
+            <div
+              class="flex-row p-10 items-center relative h-56 w-full md:w-3/4 bg-white rounded-lg text-black"
+            >
+              <!-- img review -->
+              <div class="absolute -top-7 -left-7">
+                <img
+                  class="bg-white rounded-full p-1 h-15 w-15 object-cover"
+                  src="images/mtch me.jpg"
+                  alt=""
+                />
+              </div>
+
+              <p class="text-gray-500">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                corporis esse veritatis earum quam ratione, dolore iusto.
+              </p>
+              <h1 class="font-bold text-xl pt-3">Md Selim Reza</h1>
+              <h2 class="font-semibold text-gray-400">Developer</h2>
+            </div>
+          </div>
+           <!-- mid card -->
+          <div class="relative pt-20 opacity-50 left-44 md:w-3/4">
+            <div
+              class="flex-row p-10 items-center relative h-56 w-full md:w-3/4 bg-white rounded-lg text-black"
+            >
+              <!-- img review -->
+              <div class="absolute -top-7 -left-7">
+                <img
+                  class="bg-white rounded-full p-1 h-15 w-15 object-cover"
+                  src="images/mtch me.jpg"
+                  alt=""
+                />
+              </div>
+
+              <p class="text-gray-500">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                corporis esse veritatis earum quam ratione, dolore iusto.
+              </p>
+              <h1 class="font-bold text-xl pt-3">Md Selim Reza</h1>
+              <h2 class="font-semibold text-gray-400">Developer</h2>
+            </div>
+          </div>
+          <!-- bottom card -->
+          <div class=" relative py-10 opacity-50 left-46 md:w-3/4">
+            <div
+              class="flex-row p-10 items-center relative h-56 w-full md:w-3/4 bg-white rounded-lg text-black"
+            >
+              <!-- img review -->
+              <div class="absolute -top-7 -left-7">
+                <img
+                  class="bg-white rounded-full p-1 h-15 w-15 object-cover"
+                  src="images/mtch me.jpg"
+                  alt=""
+                />
+              </div>
+
+              <p class="text-gray-500">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                corporis esse veritatis earum quam ratione, dolore iusto.
+              </p>
+              <h1 class="font-bold text-xl pt-3">Md Selim Reza</h1>
+              <h2 class="font-semibold text-gray-400">Developer</h2>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
