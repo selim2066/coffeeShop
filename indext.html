@@ -210,19 +210,21 @@
               Client
             </h1>
             <p class="pb-5">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta ab
-              reprehenderit cumque dolore dicta sint eos unde iusto sapiente
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+              ab reprehenderit cumque dolore dicta sint eos unde iusto sapiente
               dignissimos!
             </p>
-            <button class="bg-white px-4 py-2 rounded-xl text-orange-700">
+            <button
+              class="bg-white font-bold px-4 py-2 rounded-xl text-orange-700"
+            >
               Show All
             </button>
           </div>
         </div>
         <!-- text review customer -->
-        <div class="relative ">
+        <div class="relative">
           <!-- top card -->
-          <div class="absolute z-10 top-50 md:w-3.5/4 left-20">
+          <div class="absolute z-10 top-50 md:w-3.5/4 left-20 hover:scale-110 ease-linear duration-700">
             <div
               class="flex-row p-10 items-center relative h-56 w-full md:w-3/4 bg-white rounded-lg text-black"
             >
@@ -243,8 +245,8 @@
               <h2 class="font-semibold text-gray-400">Developer</h2>
             </div>
           </div>
-           <!-- mid card -->
-          <div class="relative pt-20 opacity-50 left-44 md:w-3/4">
+          <!-- mid card -->
+          <div class="relative pt-20 opacity-50 left-44 md:w-3/4 hover:z-50 hover:scale-110 ease-linear duration-700 hover:opacity-100">
             <div
               class="flex-row p-10 items-center relative h-56 w-full md:w-3/4 bg-white rounded-lg text-black"
             >
@@ -266,7 +268,7 @@
             </div>
           </div>
           <!-- bottom card -->
-          <div class=" relative py-10 opacity-50 left-46 md:w-3/4">
+          <div class="relative py-10 mb-10 opacity-50 left-46 md:w-3/4  hover:z-50 hover:scale-110 ease-linear duration-700 hover:opacity-100">
             <div
               class="flex-row p-10 items-center relative h-56 w-full md:w-3/4 bg-white rounded-lg text-black"
             >
@@ -290,5 +292,87 @@
         </div>
       </div>
     </main>
+
+    <!-- footer -->
+    <div class="bg-orange-100 py-10 px-4">
+      <div class="w-9/12 mx-auto">
+        <!-- logo -->
+        <div class="flex justify-between">
+          <div>
+            <img src="images/cup.png" alt="" />
+          </div>
+          <div class="flex gap-4 items-center">
+            <h1 class="font-semibold text-red-700">Ready to Get Started?</h1>
+            <button
+              class="hover:scale-120 ease-in-out duration-700 bg-gradient-to-r from-orange-500 to-red-500 py-3 px-3 rounded-lg text-white font-bold"
+            >
+              Get started
+            </button>
+          </div>
+        </div>
+
+        <!-- links grid -->
+        <div class="grid md:grid-cols-4 mt-5">
+          <!-- first column -->
+          <div>
+            <h3 class="font-bold pt-5 text-xl">Quick Links</h3>
+            <ul class="pt-3 text-gray-700">
+              <li><a class="hover:text-orange-500" href="#">Home</a></li>
+              <li><a class="hover:text-orange-500" href="#">Insurence</a></li>
+              <li><a class="hover:text-orange-500" href="#">About</a></li>
+              <li>
+                <a class="hover:text-orange-500" href="#">Privacy & Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold pt-5 text-xl">Our Services</h3>
+            <ul class="pt-3 text-gray-700">
+              <li><a class="hover:text-orange-500" href="#">Home</a></li>
+              <li><a class="hover:text-orange-500" href="#">Insurence</a></li>
+              <li><a class="hover:text-orange-500" href="#">About</a></li>
+              <li>
+                <a class="hover:text-orange-500" href="#">Privacy & Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold pt-5 text-xl">Help</h3>
+            <ul class="pt-3 text-gray-700">
+              <li><a class="hover:text-orange-500" href="#">Hot-Line</a></li>
+              <li><a class="hover:text-orange-500" href="#">Mail</a></li>
+            </ul>
+          </div>
+          <!-- last column -->
+          <div class="mt-2">
+            <h3 class="font-bold text-xl">Subscribe to our newsletter</h3>
+            <div class="flex mt-4 mb-4">
+              <div>
+                <input
+                  placeholder="Email Address"
+                  type="text"
+                  class="border-b-2 w-5/6"
+                />
+              </div>
+              <button class="bg-orange-600 text-white rounded-full w-7 h-7 inline-flex justify-center items-center ">
+                <i class="fa-solid fa-chevron-right hover:scale-150 ease-in-out duration-700"></i>
+              </button>
+            </div>
+
+            <div class="flex gap-5">
+              <div><i class="fa-brands fa-facebook hover:scale-150 ease-in-out duration-700"></i></div>
+              <div><i class="fa-brands fa-x-twitter hover:scale-150 ease-in-out duration-700"></i></div>
+              <div><i class="fa-brands fa-instagram hover:scale-150 ease-in-out duration-700"></i></div>
+              <div><i class="fa-brands fa-linkedin-in hover:scale-150 ease-in-out duration-700"></i></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- credit -->
+         <div class="text-center"><p class="text-gray-600 mx-auto mt-10">© 2025 Md Selim Reza to - All rights reserved</p></div>
+
+      </div>
+    </div>
   </body>
 </html>
