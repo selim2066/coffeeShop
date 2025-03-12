@@ -10,4 +10,4 @@ This is a simple coffee shop website built using HTML, CSS, and Tailwind CSS.
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone <your-repository-url>
+   git clone https://github.com/selim2066/coffeeShop.git
