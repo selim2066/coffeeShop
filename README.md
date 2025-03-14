@@ -11,3 +11,4 @@ This is a simple coffee shop website built using HTML, CSS, and Tailwind CSS.
 1. Clone the repository:
    ```sh
    git clone https://github.com/selim2066/coffeeShop.git
+Live site: https://coffee-shop-two-lovat.vercel.app/
